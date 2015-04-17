@@ -40,7 +40,7 @@ import ".."
 FunctionKey {
     property string direction
     property string directionShifted
-    property int arrowKeyWidth: 52
+    property int arrowKeyWidth: 60
     icon.source: (((direction === "up") || ((direction === "left") && attributes.inSymView)) ? "image://theme/icon-l-up"
                :  ((direction === "down") || ((direction === "right") && attributes.inSymView)) ? "image://theme/icon-l-down"
                :   (direction === "left") ? "image://theme/icon-l-left"

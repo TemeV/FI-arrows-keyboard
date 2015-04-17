@@ -31,10 +31,10 @@ import QtQuick 2.0
 import com.jolla.keyboard 1.0
 
 KeyboardRow {
-    splitIndex: 4
+    splitIndex: 3
 
     SymbolKeyMod {}
-    ContextAwareCommaKey {}
+
     CustomArrowKeyMod { direction: "left" }
     SpacebarKey {}
     SpacebarKey {
@@ -42,14 +42,6 @@ KeyboardRow {
         languageLabel: ""
     }
     CustomArrowKeyMod { direction: "right" }
-    CharacterKey {
-        caption: "."
-        captionShifted: "."
-        accents: ".ªº:;"
-        accentsShifted: ".ªº:;"
-        implicitWidth: punctuationKeyWidth-12
-        fixedWidth: !splitActive
-        separator: SeparatorState.HiddenSeparator
-    }
+
     EnterKeyMod {}
 }
