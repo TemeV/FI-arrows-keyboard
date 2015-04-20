@@ -8,7 +8,7 @@ CharacterKey {
                ? "@"
                : ","
     captionShifted: caption
-    symView: ","
+    symView: ";"
     symView2: ","
     accents: "/@,;"
     accentsShifted: "/@,;"
