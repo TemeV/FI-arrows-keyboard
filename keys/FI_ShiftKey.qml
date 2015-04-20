@@ -45,7 +45,7 @@ FunctionKey {
 
     // dim normal shift mode
     icon.opacity: (!attributes.inSymView && !attributes.isShiftLocked && !attributes.isShifted) ? 0.2 : 1.0
-    caption: attributes.inSymView ? (attributes.inSymView2 ? "123" : "#+=") : ""
+    caption: attributes.inSymView ? (attributes.inSymView2 ? "123" : "€£$") : ""
     key: Qt.Key_Shift
     keyType: KeyType.ShiftKey
 

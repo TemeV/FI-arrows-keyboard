@@ -33,15 +33,15 @@ import com.jolla.keyboard 1.0
 KeyboardRow {
     splitIndex: 3
 
-    SymbolKeyMod {}
+    FI_SymbolKey {}
 
-    CustomArrowKeyMod { direction: "left" }
+    FI_ArrowKey { direction: "left" }
     SpacebarKey {}
     SpacebarKey {
         active: splitActive
         languageLabel: ""
     }
-    CustomArrowKeyMod { direction: "right" }
+    FI_ArrowKey { direction: "right" }
 
-    EnterKeyMod {}
+    FI_EnterKey {}
 }
