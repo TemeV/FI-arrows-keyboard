@@ -1,4 +1,4 @@
-Name:       FI-arrows-keyboard
+Name:       FI-arrows-keyboard2
 
 %{!?qtc_qmake:%define qtc_qmake %qmake}
 %{!?qtc_qmake5:%define qtc_qmake5 %qmake5}
@@ -7,7 +7,7 @@ Name:       FI-arrows-keyboard
 
 Summary:    FI-arrows-keyboard
 Version:    1.0.0
-Release:    1
+Release:    2
 Group:      System/GUI/Other
 License:    TBD
 Source0:    %{name}-%{version}.tar.bz2
